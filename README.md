@@ -7,7 +7,7 @@ Este projeto contém um script de automação (.sh) desenvolvido para realizar a
 O script foi criado com base nas aulas da instituição Senac (Presidente Prudente), feito para facilitar laboratórios de monitoramento, resolvendo automaticamente conflitos de repositórios em versões recentes do Linux e configurando a pilha LAMP (Linux, Apache, MariaDB, PHP) necessária para o Zabbix. 
 
 ## ⚠️ Aviso 
-Os testes para este script ser criado, foram feitos no VMware 25H2 
+Os testes para este script foram feitos no VMware 25H2 
 
 ## Como utilizar
 
