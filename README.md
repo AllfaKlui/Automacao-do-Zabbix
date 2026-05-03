@@ -39,7 +39,7 @@ Após a conclusão, acesse o link gerado pelo script (http://SEU-IP/zabbix) e ut
 ### Para quem quer deixar a **"HUD"** do Zabbix mais profissional. Aqui está uma `instalação automática.`
 [Instalação automatica do Grafana](Install_Grafana.sh)
 
-### Para aqueles que tem curiosidade em ver e testar passo a passo. Aqui se encontra, os **"Manuais"** da instalação do `Zabbix e do Grafana.`
+### Para aqueles que tem curiosidade em ver e testar passo a passo. Aqui se encontra, o **"Manual"** de instalação do `Zabbix.`
 
 [Instalação Manual do Zabbix](Versão_Manual_Zabbix.md)      
-[Instalação Manual do Grafana](Versão_Manual_Grafana.md)
+
