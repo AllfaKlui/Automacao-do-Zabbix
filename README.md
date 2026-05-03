@@ -14,19 +14,19 @@ Os testes para este script ser criado, foram feitos no VMware 25H2
 1. ### Baixe o script diretamente do GitHub:
 
 
-` wget https://raw.githubusercontent.com/AllfaKlui/Automacao-do-Zabbix/main/Zabbix_teste.sh`
+` wget https://raw.githubusercontent.com/AllfaKlui/Automacao-do-Zabbix/main/Setup_Zabbix.sh`
 
 
 2. ### Dê permissão de execução ao arquivo:
 
-`chmod +x Zabbix_teste.sh`
+`chmod +x Setup_Zabbix.sh`
 
 3. ### Execute o instalador:
 
-`sudo ./Zabbix_teste.sh`
+`sudo ./Setup_Zabbix.sh`
 
 
-# 🔐 Credenciais Padrão 
+## 🔐 Credenciais Padrão 
 Após a conclusão, acesse o link gerado pelo script (http://SEU-IP/zabbix) e utilize os dados abaixo:
 
 
@@ -34,3 +34,12 @@ Após a conclusão, acesse o link gerado pelo script (http://SEU-IP/zabbix) e ut
 |----------|----------|-----|
 |Banco de Dados|zabbix|password
 |Inteface Web  |Admin|zabbix
+
+
+### Para quem quer deixar a **"HUD"** do Zabbix mais profissional. Aqui está uma `instalação automática.`
+[Instalação automatica do Grafana](Install_Grafana.sh)
+
+### Para aqueles que tem curiosidade em ver e testar passo a passo. Aqui se encontra, os **"Manuais"** da instalação do `Zabbix e do Grafana.`
+
+[Instalação Manual do Zabbix](Versão_Manual_Zabbix.md)      
+[Instalação Manual do Grafana](Versão_Manual_Grafana.md)
