@@ -52,7 +52,7 @@ Vá em `Connections` > `Data Sources` e clique em `Add data source.`
 
 `Selecione Zabbix.`
 
-Na seção `HTTP`, preencha a `URL`: `http://localhost/zabbix/api_jsonrpc.php` (use localhost se o Zabbix estiver no mesmo servidor).
+Na seção `HTTP`, preencha a `URL`: `http://SEU-IP/zabbix/api_jsonrpc.php` (use localhost se o Zabbix estiver no mesmo servidor).
 
 Na seção `Zabbix Connection`, insira as credenciais da `API` do seu **Zabbix
 `(Geralmente Admin e zabbix)`.**

@@ -72,3 +72,11 @@ Reinício completo da pilha de serviços e habilitação para boot automático.
 `sudo systemctl restart zabbix-server zabbix-agent apache2 php8.5-fpm`  
 `sudo systemctl enable zabbix-server zabbix-agent apache2 php8.5-fpm`   
 `sudo systemctl status zabbix-server apache2 php8.5-fpm`    
+
+## 🔐 Credenciais Padrão 
+Após a conclusão, acesse o link (http://SEU-IP/zabbix) e utilize os dados abaixo:
+
+|Componente|Utilizador|Senha|
+|----------|----------|-----|
+|**Banco de Dados**|`zabbix`|`password`
+|**Inteface Web**  |`Admin`|`zabbix`
