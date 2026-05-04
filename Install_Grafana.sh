@@ -25,9 +25,15 @@ sudo systemctl daemon-reload
 sudo systemctl start grafana-server
 sudo systemctl enable grafana-server
 
-# 5. Instalação do Plugin do Zabbix
+# 5. Instalação do Plugin do Zabbix e Ajuste de Permissões
 echo "Instalando o Plugin Oficial do Zabbix (Alexander Zobnin)..."
-sudo grafana-cli plugins install alexanderzobnin-zabbix-app
+sudo grafana-cli --homepath "/usr/share/grafana" plugins install alexanderzobnin-zabbix-app
+
+echo "Ajustando permissões para futuros plugins via Web..."
+sudo chown -R grafana:grafana /var/lib/grafana/plugins
+sudo chmod -R 775 /var/lib/grafana/plugins
+
+echo "Reiniciando o Grafana para aplicar as mudanças..."
 sudo systemctl restart grafana-server
 
 # 6. Captura de IP e Entrega do HTTP
