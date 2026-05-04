@@ -8,7 +8,7 @@ Este guia documenta o passo a passo exato para a instalação manual do Zabbix 8
 **Instituição: Senac (Presidente Prudente)**
 
 
-**1. Preparação de Repositórios e Instalação Base**
+## **1. Preparação de Repositórios e Instalação Base**
 
 Comandos para adicionar a chave oficial, corrigir o erro do repositório tools em versões recentes do Ubuntu e instalar os pacotes essenciais (LAMP + Zabbix).
 
@@ -21,7 +21,7 @@ Comandos para adicionar a chave oficial, corrigir o erro do repositório tools e
 `sudo apt update`   
 `sudo apt install zabbix-server-mysql zabbix-frontend-php  zabbix-apache-conf zabbix-sql-scripts zabbix-agent mariadb-server -y`
 
-**2. Configuração de Idioma e Servidor Web**
+## **2. Configuração de Idioma e Servidor Web**
 
 Ajuste do charset do sistema operacional e ativação dos módulos do PHP 8.5 no Apache2.
 
@@ -32,7 +32,7 @@ Ajuste do charset do sistema operacional e ativação dos módulos do PHP 8.5 no
 `sudo a2enconf php8.5-fpm`      
 `sudo systemctl reload apache2`             
 
-**3. Criação do Banco de Dados (MariaDB)**
+## **3. Criação do Banco de Dados (MariaDB)**
 
 Acesse o console do banco de dados:
 
@@ -49,7 +49,7 @@ Execute as queries abaixo sequencialmente para criar o banco, usuário e concede
 `QUIT;`     
 `EXIT;`
 
-**4. Importação de Esquemas e Configuração**
+## **4. Importação de Esquemas e Configuração**
 
 Descompactação da estrutura oficial do Zabbix para dentro do banco recém-criado e ajuste de segurança.
 
@@ -64,7 +64,7 @@ Vincule o banco de dados ao servidor Zabbix editando o arquivo .conf:`
 
 No editor Nano, localize a linha comentada `# DBPassword=` ***Com o comando ctrl +/ (Linha 124),** remova a cerquilha e insira sua senha (ex: DBPassword=password). **`Salve` com (ctrl +o) de `Enter` e `Saia` com (ctrl+x).**
 
-**5. Start e Validação dos Serviços**
+## **5. Start e Validação dos Serviços**
 
 Reinício completo da pilha de serviços e habilitação para boot automático.
 

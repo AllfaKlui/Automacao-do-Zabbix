@@ -6,8 +6,8 @@ Este projeto contém um script de automação (.sh) desenvolvido para realizar a
 
 O script foi criado com base nas aulas da instituição Senac (Presidente Prudente), feito para facilitar laboratórios de monitoramento, resolvendo automaticamente conflitos de repositórios em versões recentes do Linux e configurando a pilha LAMP (Linux, Apache, MariaDB, PHP) necessária para o Zabbix. 
 
-## ⚠️ Aviso 
-Os testes para este script foram feitos no VMware 25H2 
+## 🏠 Ambiente de Validação
+Homologado e testado em máquinas virtuais via **VMware 25H2**. 
 
 ## Como utilizar
 
@@ -32,14 +32,15 @@ Após a conclusão, acesse o link gerado pelo script (http://SEU-IP/zabbix) e ut
 
 |Componente|Utilizador|Senha|
 |----------|----------|-----|
-|Banco de Dados|zabbix|password
-|Inteface Web  |Admin|zabbix
+|**Banco de Dados**|`zabbix`|`password`
+|**Inteface Web**  |`Admin`|`zabbix`
 
+# Recursos Extras 
 
-### Para quem quer deixar a **"HUD"** do Zabbix mais profissional. Aqui está uma `instalação automática.`
-[Instalação automatica do Grafana](Guia_de_Instalação_Grafana.md)
+## 🖥️ Para aqueles que gostariam de deixar a **"HUD"** do Zabbix mais profissional. Aqui está um Guia de instalação automática do Grafana.
+### [Instalação Automatica do Grafana](Guia_de_Instalação_Grafana.md)
 
-### Para aqueles que tem curiosidade em ver e testar passo a passo. Aqui se encontra, o **"Manual"** de instalação do `Zabbix.`
+## 📒 Para aqueles que tem curiosidade em ver e testar passo a passo. Aqui se encontra, o **"Manual"** de instalação do `Zabbix.`
 
-[Instalação Manual do Zabbix](Versão_Manual_Zabbix.md)      
+### [Instalação Manual do Zabbix](Versão_Manual_Zabbix.md)      
 

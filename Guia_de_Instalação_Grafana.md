@@ -1,5 +1,5 @@
-# ⚠️ Ambiente de Validação
-Homologado e testado em máquinas virtuais via **VMware 25H2**.
+# 🏠 Ambiente de Validação
+Testado em máquinas virtuais via **VMware 25H2**.
 
 ## 📊 Automação de Instalação: Grafana + Plugin Zabbix
 
@@ -26,7 +26,7 @@ Siga os passos abaixo no terminal do seu servidor para iniciar a instalação:
 
 ## 🔐 Primeiro Acesso
 
-Após a execução, acesse pelo navegador http://SEU-IP:3000.
+Após a execução, acesse pelo navegador `http://SEU-IP:3000.`
 
 Usuário padrão: `admin`
 
@@ -36,7 +36,7 @@ Senha padrão: `admin` (O sistema exigirá a troca no primeiro login).
 
 Com a instalação concluída, você precisa "ligar" os dois sistemas na interface web do Grafana:
 
-**Passo 1: Habilitar o Plugin**
+### **Passo 1: Habilitar o Plugin**
 
 No menu esquerdo, vá em `Administration` (ícone de engrenagem) > `Plugins`.
 
@@ -44,7 +44,7 @@ Pesquise por `Zabbix` e clique nele.
 
 `Clique no botão azul Enable.`
 
-**Passo 2: Configurar o Data Source (Fonte de Dados)**
+### **Passo 2: Configurar o Data Source (Fonte de Dados)**
 
 Vá em `Connections` > `Data Sources` e clique em `Add data source.`
 
@@ -57,10 +57,10 @@ Na seção `Zabbix Connection`, insira as credenciais da `API` do seu **Zabbix
 
 **Desça até o final da página e clique em `Save & Test.`** Um `balão verde` confirmará a conexão.
 
-**Passo 3: Dashboards Prontos**
+### **Passo 3: Dashboards Prontos**
 
 **Ainda em Data Source de volta para cima e clique na aba Dashboards.**
 
 **Importe os modelos disponíveis ou Todos se quiser (ex: Zabbix Server Dashboard).**
 
-## Pronto! Acesse seus Dashboards no menu lateral esquerdo.
+## 🎉 Pronto! Acesse seus Dashboards no menu lateral esquerdo.
