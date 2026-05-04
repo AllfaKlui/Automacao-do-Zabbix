@@ -14,7 +14,7 @@ Estruturado para agilizar a criação de laboratórios de monitoramento nas aula
 Siga os passos abaixo no terminal do seu servidor para iniciar a instalação:
 
 1. **Baixe o script diretamente do GitHub:**
-wget https://raw.githubusercontent.com/AllfaKlui/Automacao-do-Zabbix/main/Zabbix_teste.sh
+wget https://raw.githubusercontent.com/AllfaKlui/Automacao-do-Zabbix/main/install_grafana.sh
 
 2. **Dê permissão de execução ao arquivo:**
 
