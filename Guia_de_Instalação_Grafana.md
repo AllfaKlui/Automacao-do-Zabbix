@@ -13,16 +13,14 @@ Estruturado para agilizar a criação de laboratórios de monitoramento nas aula
 
 Siga os passos abaixo no terminal do seu servidor para iniciar a instalação:
 
-1. **Baixe o script diretamente do GitHub:**
-wget https://raw.githubusercontent.com/AllfaKlui/Automacao-do-Zabbix/main/install_grafana.sh
-
+1. **Baixe o script diretamente do GitHub:**          `wget https://raw.githubusercontent.com/AllfaKlui/Automacao-do-Zabbix/main/Install_Grafana.sh`      
 2. **Dê permissão de execução ao arquivo:**
 
-`chmod +x install_grafana.sh`
+`chmod +x Install_Grafana.sh`
 
 3. **Execute o instalador:**
 
-`sudo ./install_grafana.sh`
+`sudo ./Install_Grafana.sh`
 
 
 
